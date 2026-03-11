@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  thingsboard:
+    image: thingsboard/tb-postgres
+    container_name: veriapi-thingsboard-1
+    restart: always
+    ports:
+      - "9090:9090"        # Web Arayüzü (Artık 8081 değil, 9090)
+      - "1883:1883"        # ESP32 MQTT Portu
+      - "5683:5683/udp"    # CoAP
+      - "7070:7070"        # Edge
+    volumes:
+      - tb-data:/data
+      - tb-logs:/var/log/thingsboard
+
+volumes:
+  tb-data:
+  tb-logs:
