@@ -1,17 +1,17 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <DHT.h>
-
+#define MQTT_MAX_PACKET_SIZE 512
 // ================== AYARLAR (AYNEN KORUNDU) ==================
 
 const char* ssid = "cnn";             // WiFi adın
 const char* password = "alibeykoy99"; // WiFi şifren
 
 // Bilgisayarının IP adresi
-const char* mqtt_server = "10.62.198.38"; 
+const char* mqtt_server = "89.167.19.129"; 
 
 // Access Token
-const char* token = "NTjIYPgLrL9HUonpxVyR"; 
+const char* token = "39SYKAtdFAwNJ5JmIi9r"; 
 
 // ===========================================================
 
