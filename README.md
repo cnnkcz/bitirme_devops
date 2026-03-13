@@ -1,2 +1,2 @@
-pipeline çalışıyor mu test
+pipeline denemesi
 
