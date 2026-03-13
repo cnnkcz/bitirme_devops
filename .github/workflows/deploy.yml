@@ -19,6 +19,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }} # Kaydettiğimiz kullanıcıyı (cnn) kullanır.
           key: ${{ secrets.SSH_PRIVATE_KEY }} # O uzun SSH anahtarını kullanır.
           script: |
-            cd /home/cnn
+            cd /home/cnn/akillisera_proje
             git pull origin main
-            sudo docker compose up -d --build
+            cd docker
+            docker compose up -d --build
