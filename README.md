@@ -1,1 +1,1 @@
-26 mart denemesi
+26 mart denemesi amin amin 
