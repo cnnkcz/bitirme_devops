@@ -2,7 +2,7 @@
 
 Bu proje, bir IoT cihazından (ESP32) gelen sensör verilerinin gerçek zamanlı izlenmesini ve bu mimarinin **Kubernetes-Ready (K8s-Native)** prensiplerine uygun, ölçeklenebilir bir DevOps döngüsüyle yönetilmesini hedefleyen bir bitirme projesidir.
 
-## 🛠️ Mimari ve Teknolojiler
+##  Mimari ve Teknolojiler
 
 - **Donanım:** ESP32 (IoT Edge Device)
 - **Haberleşme:** MQTT Protokolü
@@ -14,7 +14,7 @@ Bu proje, bir IoT cihazından (ESP32) gelen sensör verilerinin gerçek zamanlı
 - **Otomasyon (CI/CD):** GitHub Actions (GitOps prensiplerine uygun)
 - **Bulut/Altyapı:** Hetzner VPS (Ubuntu 22.04 LTS)
 
-## 🚀 Proje Öne Çıkanlar
+##  Projede Öne Çıkanlar
 
 ### 1. Kubernetes-Ready Tasarım (K8s-Native Architecture)
 Proje, mikroservis mimarisiyle izole edilmiş konteynerlar üzerine inşa edilmiştir. Servisler arası iletişim ve konfigürasyon yapısı, gelecekteki **Kubernetes Cluster** geçişine uygun olacak şekilde; "stateless" (durumsuz) prensipler ve merkezi konfigürasyon yönetimi gözetilerek kurgulanmıştır.
@@ -35,7 +35,7 @@ Sistem, gerçek bir üretim ortamı (production) gibi izlenmektedir:
 
 ---
 
-## 🛠️ Kurulum ve Dağıtım
+##  Kurulum ve Dağıtım
 
 ```bash
 # Projeyi klonlayın
